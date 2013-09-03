@@ -1,0 +1,103 @@
+html{
+	font-family:Oxygen;
+	margin:0;
+	padding:0;
+	background: #F8F8FF;
+	color:gray;
+}
+body{
+	margin:0;
+	padding:0;
+}
+h1{
+	font-weight:200;
+	color: #FF4400;font-size:2.2em;
+	margin:10px 0px 10px 0px;
+}
+h2{
+	font-weight:100;
+	color:#B700CB;
+}
+h3{
+	
+}
+h4{
+	
+}
+a{
+	color:#0080FF;
+	text-decoration:none;	
+}
+a:hover{
+	color:#FF2B00;
+}
+ul{
+	list-style:none;
+}
+
+button{
+	height:25px;
+	padding-left:20px;
+	padding-right:20px;
+	border:2px solid #5EBAFF;
+	color:white;
+	background:#0091FF;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+button:hover{
+	background:#FF4400;
+	border:2px solid #FF7847;
+	cursor:pointer;
+}
+input[type=text]{
+	height:23px;
+	padding:0;
+	border:2px solid #E4E4E4;
+	padding-left:3px;
+	padding-right:3px;
+}
+input[type=text]:focus{
+	background:#333333;	
+	color:white;
+}
+.slh_wrap{
+	padding:10px;
+}
+#news_section_wrap{
+	padding:8px 0px 8px 0px;
+	width:100%;
+	background:#2B2B2B;
+}
+#news_section{
+	margin-left:8px;
+	color:white;
+}
+#localhost_dirs{
+	
+}
+#php_extensions{
+	background:#F0F0F0;
+	color:#FA8072;
+}
+#php_extensions ul{
+	display:inline-block;
+}
+#ext_icon{
+	height:7px;
+	width:7px;
+	border: 2px solid white;
+	margin-right:5px;
+	background:#0077FF;
+	display:inline-block;
+}
+.usefull_link{
+	color:#FA8072;
+}
+.del_btn{
+	margin-top:10px;
+}
+/*this will be used later on for the delete checkboxes, when I implement the delete functionality*/
+.d_chk{
+	display:none;
+}

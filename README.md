@@ -3,7 +3,10 @@ SweetLocalHost
 
 <strong>Sweet localhost</strong> is a better localhost setup for web developers who want something more out of their development envivorment
 it's currently a beta version and as such it offers features such as: 
-
+<h3>Installation: </h3>
+Simply unzip it to your localhost folder or documentroot depends what kind of setup you are using, if you're on linux by deault
+apache2 will select the folder to be /var/www or sometimes var/www/public-html if you're on windows and you're using xampp or wamp
+it is most likely located in your C:/ folder other wise you can check the config file of your respective server envivorment for what the documentroot is
 <h3>List of features: </h3>
 <ul>
   <li>a view of all your working folders with hyperlinks to their location</li>
